@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none; /* Désactive la sélection */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    overflow: hidden;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#bouncing-rectangle {
+    position: absolute;
+    width: 200px; /* Largeur du rectangle */
+    height: 100px; /* Hauteur du rectangle */
+    background-color: #f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    max-width: 90%; /* Le logo reste proportionnel */
+    max-height: 90%; /* Le logo reste proportionnel */
+}
